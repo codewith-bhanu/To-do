@@ -9,9 +9,6 @@ django-js-asset==2.2.0
 djangorestframework==3.15.1
 djangorestframework-simplejwt==5.3.1
 idna==3.8
-mysql==0.0.3
-mysql-connector==2.2.9
-mysqlclient==2.2.4
 pillow==10.3.0
 PyJWT==2.9.0
 requests==2.32.3
