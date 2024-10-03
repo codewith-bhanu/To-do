@@ -66,8 +66,12 @@ LOGIN_URL = 'login'  # 'login' is the URL name for your login view
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'todo',
+        'USER': 'admin',
+        'PASSWORD': 'Bhanus180668',
+        'HOST': 'project-todo.cng6ue8gisdt.eu-north-1.rds.amazonaws.com',
+        'PORT': '3306'
     }
 }
 
