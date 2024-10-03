@@ -44,7 +44,7 @@ def user_signup(request):
 @login_required
 def task_list(request):
     tasks = Task.objects.filter(user=request.user)  # Fetch tasks for the logged-in user
-    paginator = Paginator(tasks, 5)  # Show 10 tasks per page
+    paginator = Paginator(tasks, 10)  # Show 10 tasks per page
     page_number = request.GET.get('page')  # Get the page number from the query parameters
     page_obj = paginator.get_page(page_number)  # Get the tasks for the current page
 
