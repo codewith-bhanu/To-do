@@ -66,7 +66,7 @@ LOGIN_URL = 'login'  # 'login' is the URL name for your login view
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'mysql.connector.django',
         'NAME': 'todo',
         'USER': 'admin',
         'PASSWORD': 'Bhanus180668',
