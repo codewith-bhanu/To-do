@@ -8,11 +8,7 @@
         {
             "src": "/(.*)",
             "dest": "Todo_list/wsgi.py"
-        },
-        {
-            "src": "/static/(.*)",
-            "dest": "/static/$1" 
-        },
+        }
 
     ]
 }
